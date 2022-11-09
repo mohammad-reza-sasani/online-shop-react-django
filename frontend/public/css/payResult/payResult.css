@@ -1,0 +1,39 @@
+.pay-result-parent {
+  max-width: 500px;
+  min-width: 300px;
+  height: 300px;
+  background-color: #fff;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.pay-result-success-pay {
+  display: block;
+  font-size: 90px;
+  text-align: center;
+  margin-top: 20px;
+  color: rgb(0, 187, 25);
+}
+
+.pay-result-bad-pay {
+  display: block;
+  font-size: 90px;
+  text-align: center;
+  margin-top: 20px;
+  color: red;
+}
+.pay-result-text {
+  text-align: center;
+  margin-top: 20px;
+}
+
+@media (max-width: 420px) 
+{
+  .pay-result-parent
+   {
+    max-width: 300px;
+    min-width: 100px;
+  }
+}

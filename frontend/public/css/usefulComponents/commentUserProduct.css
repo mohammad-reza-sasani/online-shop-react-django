@@ -1,0 +1,64 @@
+.commentUserProduct-parent
+{
+    max-width: 1200px;    
+    min-width: 0;
+    border: solid 3px rgb(230, 230, 230);
+    margin: auto;
+    margin-top: 15px;
+    padding: 20px;
+    margin-bottom: 120px;
+}
+
+.commentUserProduct-title-parent
+{
+    display: block;
+    margin-top: 20px;    
+    font-size: 19px;
+    font-weight: bold;
+    
+}
+
+.commentUserProduct-guid-send-comment
+{
+    font-size: 14px;    
+    font-weight: bold;
+}
+.commentUserProduct-text-area
+{
+    margin-top: 15px;
+    direction: rtl;
+}
+
+.commentUserProduct-comment-parent
+{
+    border: solid 3px rgb(230, 230, 230);
+    padding: 10px;
+    margin-top: 20px;    
+    
+}
+
+.commentUserProduct-user-icon
+{
+    font-size: 30px;        
+    height: 50px;
+    line-height: 50px;    
+}
+.commentUserProduct-username-parent
+{
+    font-size: 15px;
+    height: 50px;
+    
+    display: block;
+    
+}
+.commentUserProduct-username
+{    
+    height: 50px;
+    line-height: 50px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+.commentUserProduct-user-comment-text
+{
+    font-size: 12px;
+}

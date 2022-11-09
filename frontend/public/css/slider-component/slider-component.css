@@ -1,0 +1,11 @@
+.slider-component-image
+{    
+    width: 1200px;
+    /* height: 600px; */
+    /* height: auto; */
+    margin: auto;
+    margin-top: 5px;
+    border-radius: 20px;
+    padding: 10px;
+    display: block;
+}

@@ -1,0 +1,63 @@
+.Footer-component
+{
+    background-color: #3E6BF2;
+    width: 97%;
+    height: 80px;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    z-index: 1000;
+    position: fixed;    
+    left:1.5%; 
+    bottom: 0;
+    text-align: center;    
+}
+.Footer-component *
+{
+    color: #fff;
+}
+
+.Footer-component-icons
+{
+    font-size:22px ;
+}
+
+.Footer-component-badge-number
+{
+    position: absolute;
+    margin-left: -5px;
+    margin-top: -5px;
+}
+
+@media screen and (max-width: 576px)
+{
+    .Footer-component-text
+    {
+        font-size: 13px;
+        
+    }
+}
+
+
+@media screen and (max-width: 420px)
+{
+    .Footer-component-text
+    {
+        font-size: 8px;
+        
+    }
+.Footer-component
+{
+    background-color: #3E6BF2;
+    width: 95%;
+    height: 60px;    
+    margin-bottom: 20px;
+    border-radius: 15px;
+    z-index: 1000;
+    position: fixed;        
+    left:2.5%; 
+    bottom: 0;
+    text-align: center;    
+    margin-top: 100;
+}
+}

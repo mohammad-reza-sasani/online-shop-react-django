@@ -1,0 +1,51 @@
+.about-teacher-parent {
+  max-width: 1000px;
+  min-height: 400px;
+  margin: auto;
+  margin-top: 10px;
+  direction: rtl;
+  padding: 10px;
+  margin-bottom: 100px;
+}
+.about-teacher-image-name-parent {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 15px;
+  text-align: center;
+}
+.about-teacher-info-parent {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 15px;
+  text-align: right;
+}
+
+.about-teacher-image-parent {
+  height: 150px;
+  width: 150px;
+  margin: auto;
+}
+
+.about-teacher-image-parent img {
+  height: inherit;
+  width: inherit;
+  border-radius: 100px;
+}
+.about-teacher-name-text {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+@media (max-width:500px)
+{
+  .about-teacher-image-name-parent 
+  {
+    border-radius: 0px;
+  }
+  .about-teacher-info-parent 
+  {
+    border-radius: 0px;    
+  }
+}
+

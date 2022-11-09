@@ -1,0 +1,243 @@
+.categortPartWebSite_cat_div
+{
+    background-color: #fff;
+    width: 30%;
+    height: 100%;
+    margin: 10px;
+    font-size: 17px ;
+    border-radius: 10px;
+    padding: 50px !important;
+    font-weight: bold;
+    white-space: nowrap;
+    text-align: center;    
+}
+
+.categorypartwebsite_icon
+{    
+    font-size: 30px;
+    
+}
+
+
+.categortPartWebSite_parent
+{
+    width: 1400px;
+    margin: auto;
+    
+}
+
+
+
+@media screen and (max-width: 480px)
+{
+    .categortPartWebSite_parent 
+    {
+        width: 97%;                           
+    }        
+    .categortPartWebSite_parent a
+    {
+        font-size: 10px !important ;                
+    }
+    .categorypartwebsite_icon
+    {    
+        font-size: 30px;
+        text-align: center;
+        margin: auto;
+        
+    }
+    .categortPartWebSite_cat_div
+    {
+        background-color: #fff;
+        width: 30%;
+        height: 100%;
+        margin: 5px;
+        font-size: 17px ;
+        border-radius: 10px;
+        padding: 20px !important;
+        font-weight: bold;
+        white-space: nowrap;
+        text-align: center;    
+    }
+    
+    
+}
+
+
+@media screen and (min-width: 480px)
+{
+    .categortPartWebSite_parent 
+    {
+        width: 97%;                                   
+    }        
+    .categortPartWebSite_parent a
+    {
+        font-size: 10px !important ;                
+    }
+    .categorypartwebsite_icon
+    {    
+        font-size: 30px;
+        text-align: center;
+        margin: auto;
+        
+    }
+
+    .categortPartWebSite_cat_div
+    {
+        background-color: #fff;
+        width: 30%;        
+        margin: 5px;
+        font-size: 17px ;
+        border-radius: 10px;
+        padding: 20px !important;        
+        white-space: nowrap;           
+    }
+    
+    
+}
+
+
+
+@media screen and (min-width: 616px)
+{
+    .categortPartWebSite_parent 
+    {
+        width: 97%;               
+        padding: 2px;           
+    }        
+    .categortPartWebSite_parent a
+    {
+        font-size: 10px !important ;   
+             
+    }
+    .categortPartWebSite_cat_div a
+    {
+        text-align: center;          
+    }
+    .categorypartwebsite_icon
+    {    
+        font-size: 25px;        
+    }
+
+    .categortPartWebSite_cat_div
+    {
+        background-color: #fff;
+        width: 30%;
+        height: 100%;
+        margin: 5px;                                               
+        text-align: center;  
+        
+    }
+    .categortPartWebSite_cat_div span
+    {
+        text-align: center;        
+        margin: auto;                 
+        text-align: center;
+    }
+
+}
+
+
+
+
+
+@media screen and (min-width: 700px)
+{
+    .categortPartWebSite_parent 
+    {
+        width: 97%;                     
+    }        
+    .categortPartWebSite_parent a
+    {
+        font-size: 10px !important ;        
+    }
+    .categorypartwebsite_icon
+    {    
+        font-size: 30px;
+    }
+
+    .categortPartWebSite_cat_div
+    {
+        background-color: #fff;
+        width: 30%;
+        height: 100%;
+        margin: 5;
+       
+        
+    }
+}
+
+
+@media screen and (min-width: 816px)
+{
+    .categortPartWebSite_parent 
+    {
+        width: 97%;                     
+    }        
+    .categortPartWebSite_parent a
+    {
+        font-size: 10px !important ;        
+    }
+    .categorypartwebsite_icon
+    {    
+        font-size: 30px;
+    }
+
+}
+
+
+
+@media screen and (min-width: 800px)
+{
+
+    .categortPartWebSite_parent a
+    {        
+        font-size: 13px !important ;        
+    }
+    .categorypartwebsite_icon
+    {    
+        font-size: 40px;
+    }
+.categortPartWebSite_cat_div
+    {        
+        height: 20% ;        
+    }
+
+}
+
+
+
+@media screen and (min-width: 1000px)
+{
+    .categortPartWebSite_parent 
+    {
+        width: 900px;        
+    }    
+    .categortPartWebSite_parent a
+    {
+        font-size: 20px !important ;        
+    }
+    .categorypartwebsite_icon
+    {    
+        font-size: 30px;
+    }
+
+}
+
+
+
+@media screen and (min-width: 1200px)
+{
+    .categortPartWebSite_parent
+    {
+        width: 1000px;
+    }    
+}
+
+
+@media screen and (min-width: 1416px)
+{
+    .categortPartWebSite_parent
+    {
+        width: 1200px;        
+    }    
+}

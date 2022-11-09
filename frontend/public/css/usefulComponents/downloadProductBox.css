@@ -1,0 +1,38 @@
+.downloadProductBox-parent
+{
+    max-width: 1200px;    
+    min-width: 0;
+    border: solid 2px rgb(230, 230, 230);
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+    margin-top: 20px;
+}
+.downloadProductBox
+{
+    display: block;
+    margin-top: 30px;    
+    font-size: 19px;
+    font-weight: bold;
+}
+.downloadProductBox-download-box
+{
+    
+    border: solid 2px rgb(230, 230, 230);
+    padding: 10px;
+    margin-top: 17px;    
+}
+.downloadProductBox-download-number
+{
+    border: 3px solid rgb(230, 230, 230);
+    width: 30px;
+    height: 30px;        
+    border-radius: 50px;
+    text-align: center;
+    padding: 2px;
+    line-height: auto;
+    margin-top: 4px;
+
+}
+

@@ -1,0 +1,64 @@
+.contant-us-parent {
+  width: 60%;
+  background-color: #fff;
+  margin: auto;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 20px;
+  margin-bottom: 160px;
+}
+
+.contant-us-title-page {
+  display: block;
+  text-align: right;
+  font-size: 25px;
+}
+.contact-us-detail-text {
+  display: block;
+  text-align: right;
+  font-size: 17px;
+}
+
+.contant-us-form-guid-text {
+  display: block;
+  text-align: right;
+  font-size: 16px;
+}
+.contant-us-tel-input
+{
+    direction: rtl;
+}
+
+.contant-us-textarea {
+  text-align: right;
+  direction: rtl;  
+
+}
+.contant-us-button-send-parent
+{
+ text-align: right; 
+ display: block;
+}
+.contant-us-button-send-parent button
+{
+ width: 150px;
+}
+
+@media (max-width: 550px) {
+  .contact-us-detail-text {
+    font-size: 12px;
+  }
+  .contant-us-parent {
+    width: 90%;
+  }
+  .contant-us-textarea {
+    font-size: 14px;
+  }
+
+  
+.contant-us-form-guid-text {    
+    font-size: 12px;
+  }
+  
+}
+

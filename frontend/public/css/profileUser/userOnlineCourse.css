@@ -1,0 +1,24 @@
+.user-course-online-title-text
+{
+    display: block;    
+    text-align: right;
+    font-weight: bold;
+
+}
+.user-course-online-title-text i
+{
+    color: rgb(185, 0, 0);
+    margin-left: 10px;
+}
+
+.user-course-online-parent
+{
+    width: 95%;
+    height: auto;
+    border: 3px solid rgb(218, 218, 218);
+    padding: 10px;
+}
+.user-course-online-title-course
+{    
+    text-align: right;
+}

@@ -1,0 +1,55 @@
+.edit_profile_title
+{
+    text-align: right;
+    display: block;
+    padding-top: 20px;
+    font-weight: bold;    
+}
+
+.edit_profile_title i
+{
+    color: rgb(185, 0, 0);
+    margin-left: 10px;
+}
+.from_edit_profile_component
+{
+    text-align: center;
+}
+
+.input-edit-profile-phone
+{
+    max-width: 300px;
+    min-width: 0;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 50px;
+    text-align: right;
+    font-size: 14px;
+}
+
+.edit-profile-textguid
+{
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-top: 16px;
+    text-align: right;
+    font-size: 12px;
+    color: rgb(3, 180, 77);
+}
+
+.input-edit-profile-loginbtn
+{
+    width: 200px;    
+    margin-top: 15px;    
+}
+
+@media (max-width: 576px)
+{
+    
+    .input-edit-profile-phone
+    {
+        max-width: 85%;
+        
+        
+    }
+}

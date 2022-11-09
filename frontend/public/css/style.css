@@ -1,0 +1,19 @@
+@font-face {    
+	font-family: "IRANSans";
+    src: url("../fonts/Sansa4fran3.eot") format("eot"),
+        url("../fonts/Sansa4fran3.woff") format("woff"),
+        url("../fonts/Sansa4fran3.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body
+{
+    font-family:IRANSans !important ;
+        
+}
+
+.Toastify__toast--success {
+    font-weight: bold;
+  }
+

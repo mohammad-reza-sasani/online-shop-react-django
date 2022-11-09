@@ -1,0 +1,100 @@
+.login_register_parent
+{
+    width: 400px;
+    height: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 10px;
+    overflow: hidden;
+    padding-bottom: 30px;
+}
+
+.login_register_tabs
+{
+    width: 50%;
+    height: 100px;
+    background-color: #3E6BF2;
+    text-align: center;
+    vertical-align: middle;        
+}
+
+.login_register_tabs_text
+{
+    color: #fff;    
+    display: block;
+    height: 100%;
+    line-height: 100px;     
+    user-select: none;         
+}
+.login_register_tabs_active
+{
+    border-bottom: 5px solid rgb(255, 3, 3);
+}
+.login_register_title
+{
+    text-align: center;
+    display: block;
+    padding-top: 20px;
+}
+.from_login
+{
+    text-align: center;
+    
+}
+
+.from_login_component
+{
+    text-align: center;
+}
+.input-login-register-phone
+{
+    max-width: 300px;
+    min-width: 0;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 50px;
+    text-align: right;
+    font-size: 14px;
+}
+.login-register-textguid
+{
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-top: 16px;
+    text-align: right;
+    font-size: 12px;
+    color: rgb(3, 180, 77);
+}
+.input-login-register-loginbtn
+{
+    width: 200px;    
+    margin-top: 15px;    
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+@media (max-width: 576px)
+{
+    .login_register_parent
+    {
+        width: 85%;
+    }
+    .input-login-register-phone
+    {
+        max-width: 85%;
+        
+        
+    }
+}

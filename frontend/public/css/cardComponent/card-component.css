@@ -1,0 +1,190 @@
+.card-component-parent-cards {
+  max-width: 1240px;
+  min-width: 200px;
+  height: auto;
+  margin: auto;
+  text-align: center;
+  
+}
+.card-component-parent {
+  margin-top: 10px;
+  padding-right: 5px;
+  padding-left: 5px;
+  
+  
+}
+
+.card-component-card {
+  height: 250px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 5px;
+  overflow: hidden;  
+}
+.card-component-card-image-parent {
+  height: 150px;
+  width: 100%;
+}
+
+.card-component-card-image-parent img {
+  height: 100%;
+  width: 100%;
+}
+
+.card-component-off-price {
+  position: absolute;
+  background-color: red;
+  padding: 5px;
+  color: #fff;
+  left: 0;
+  margin-left: 10px;
+  margin-top: 8px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.card-component-detail {
+  padding: 5px;
+}
+
+.card-component-name {
+  font-size: 13px;
+  text-align: right;
+  font-weight: bold;
+  line-height: 22px;
+}
+
+.card-component-parent-tacher {
+  direction: rtl;
+  text-align: right;
+  font-size: 11px;
+}
+.card-component-parent-tacher i {
+  margin-left: 4px;
+  color: grey;
+}
+.card-component-parent-tacher span {
+  color: grey;
+}
+
+.card-component-parent-price {
+  text-align: left;
+  direction: rtl;
+  margin-top: 10px;
+}
+
+.card-component-price-text {
+  background: lightgreen;
+  padding: 6px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 12px;
+}
+.card-component-price-text i {
+  font-style: normal;
+}
+
+.card-component-line {
+  height: 1px;
+  width: 100%;
+  background-color: rgb(206, 206, 206);
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 500px) {
+  .card-component-parent-cards {
+    padding: 4px;
+  }
+  .card-component-name {
+    font-size: 11px;
+  }
+
+  .card-component-parent {
+    margin-top: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  .card-component-card {
+    height: 250px;
+    width: 100%;
+  }
+  .card-component-card-image-parent {
+    height: 150px;
+    width: 100%;
+  }
+
+  .card-component-card-image-parent img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .card-component-off-price {
+    font-size: 13px;
+  }
+
+  .card-component-detail {
+    padding: 5px;
+  }
+
+  .card-component-parent-tacher {
+    font-size: 11px;
+  }
+
+  .card-component-price-text {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 500px) {
+  .card-component-parent-cards {
+    padding: 4px;
+  }
+  .card-component-parent {
+    margin-top: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  .card-component-card {
+    height: 360px;
+    width: 100%;
+  }
+  .card-component-card-image-parent {
+    height: 250px;
+    width: 100%;
+  }
+
+  .card-component-card-image-parent img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .card-component-off-price {
+    font-size: 15px;
+  }
+
+  .card-component-detail {
+    padding: 10px;
+  }
+
+  .card-component-parent-tacher {
+    font-size: 12px;
+  }
+
+  .card-component-parent-price {
+    text-align: left;
+    direction: rtl;
+    margin-top: 15px;
+  }
+
+  .card-component-price-text {
+    font-size: 14px;    
+  }
+
+  .card-component-name {
+    font-size: 13px;
+  }
+}
