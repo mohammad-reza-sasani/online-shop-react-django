@@ -1,0 +1,20 @@
+{
+    "cSpell.words": [
+        "Artical",
+        "ASGI",
+        "keywargs",
+        "Modelserializer",
+        "viewsets",
+        "yasg"
+    ],
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "database": "${workspaceFolder:motherEarth}/db.sqlite3",
+            "name": "MotherEarth_Connection_db",
+            "group": "1"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
